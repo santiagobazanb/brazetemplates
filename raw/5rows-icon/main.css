@@ -1,0 +1,340 @@
+/* colors and icon size*/
+.outer {
+  background-color: #66E3CC;
+}
+
+.button-center {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.header {
+	color: #000000;
+}
+
+.message > * {
+	color: #000000;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+.slick-dot {
+	background: rgba(98, 101, 104, 0.33);
+}
+
+.slick-active .slick-dot {
+	opacity: 1;
+	background: #626568;
+}
+
+.main-icon {
+	width: 80px;
+	height: 80px;
+}
+
+span.tag{
+  color: white;
+}
+
+/* other css */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+	font-family: Avenir-Book, sans-serif;
+	color: #222222;
+	text-align: center;
+	margin: 0px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer {
+	font-family: Avenir-Black, sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+	width: 100%;
+	height: 10vh;
+	padding: 0 0 16px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.outer {
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	padding: 0 32px;
+}
+
+.top-container {
+	position: relative;
+	height: 20vh;
+	display: flex;
+	align-items: flex-end;
+}
+
+.button-close {
+	position: absolute;
+	right: 14px;
+	z-index: 99;
+	top: 44px;
+}
+
+.main-icon {
+	overflow: hidden;
+	margin: 0;
+}
+
+.header {
+	font-family: Avenir-Medium, sans-serif;
+	margin: 0;
+	font-size: 36px;
+	line-height: 120%;
+	min-height: 20vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-weight: 800;
+	padding: 20px 0;
+	justify-content: center;
+}
+
+.message {
+	height: 40vh;
+}
+
+.message>p {
+	font-family: Avenir-Book, sans-serif;
+	font-size: 16px;
+	line-height: 140%;
+	padding: 0 10px 0 0;
+}
+
+.message span {
+	font-size: 14px;
+	display: block;
+	margin: 20px 0 0;
+}
+
+.bottom-container {
+	overflow: hidden;
+	width: 100%;
+	height: 60vh;
+	text-align: left;
+}
+
+.button-center {
+	border-radius: 25px;
+	width: 100%;
+}
+
+.button-center a {
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding: 14px;
+}
+
+.button-center p {
+	position: relative;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.slick-container {
+	width: 100%;
+	height: 90vh;
+}
+
+.slick-list, .slick-track {
+	height: 100%;
+}
+
+.slick-slide.first .top-container {
+	/* Change the background-image url to a image of your choice */
+	background-image: url('');
+}
+
+.slick-slide.second .top-container {
+	/* Change the background-image url to a image of your choice */
+	background-image: url('');
+}
+
+.slick-slide.third .top-container {
+	/* Change the background-image url to a image of your choice */
+	background-image: url('');
+}
+
+.slick-slide .bottom-container {}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0px;
+}
+
+.slick-dots li {
+	margin: 0px;
+}
+
+.slick-dot {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 100%;
+}
+
+span.tag{
+  font-weight: 800;
+  letter-spacing: .5px;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0 0 10px;
+}
+
+@media only screen and (min-device-width: 375px) {
+	.message>p {
+		font-size: 15px;
+		margin: 0 0 20px 0;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (min-device-height: 750px) {
+	.slick-container {
+		height: 88vh;
+	}
+
+	footer {
+		height: 12vh;
+		padding: 0 0 50px;
+	}
+}
+
+@media only screen and (min-device-width: 414px) {
+	.slick-container {
+		height: 90vh;
+	}
+
+	footer {
+		height: 10vh;
+	}
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 813px) {
+	.outer {
+		border-radius: 10px;
+		width: 45%;
+		height: 100%;
+		max-height: 800px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		margin: auto;
+	}
+
+	.button-close {
+		right: 12px;
+		top: 12px;
+	}
+
+	.button-close img {
+		width: 15px;
+	}
+
+	.slick-container {
+		height: 90%;
+	}
+
+	footer {
+		height: 10%;
+	}
+
+	.top-container {
+		height: 20%;
+	}
+
+	.bottom-container {
+		height: 80%;
+	}
+}
+
+@media only screen and (max-device-width: 413px) {
+	.button-close {
+		top: 32px;
+	}
+}
+
+@media only screen and (max-device-width: 375px) {
+	.message>p {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-device-width: 360px) {
+	.header {
+		font-size: 28px;
+	}
+
+	.slick-container {
+		height: 90vh;
+	}
+
+	footer {
+		height: 10vh;
+	}
+}
+
+@media only screen and (max-device-width: 320px) {
+	.header {
+		font-size: 24px;
+	}
+
+	.slick-container {
+		height: 88vh;
+	}
+
+	footer {
+		height: 12vh;
+	}
+
+	.message>p {
+		margin: 0 0 10px 0;
+	}
+}
+
+
+/* Landscape for mobile phones */
+@media only screen and (orientation: landscape) {
+	.header {
+		margin: auto;
+    font-size: 24px;
+	}
+  .top-container {
+    height: 20vh;
+    margin-top: 20vh;
+  }
+  .outer{
+    overflow-y: scroll;
+  }
+  .slick-container{
+    height: auto;
+  }
+  footer{
+    height: 20vh;
+  }
+}
