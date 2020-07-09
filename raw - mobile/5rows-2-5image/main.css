@@ -1,4 +1,19 @@
 /* ----------------- colors and icon size ----------------- */
+@font-face {
+  font-family: "Graphik";
+  src: url("Graphik-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("Graphik-Semibold.woff") format('woff');
+  font-weight: bold;
+}
+
+body{
+  font-family: "Graphik", Arial, sans-serif;
+}
+
 .outer {
 	background-color: #fff;
 }
@@ -61,7 +76,6 @@ span.tag {
 
 body {
 	-webkit-text-size-adjust: 100%;
-	font-family: Avenir-Book, sans-serif;
 	color: #222222;
 	text-align: center;
 	margin: 0px;
@@ -74,7 +88,6 @@ a {
 }
 
 footer {
-	font-family: Avenir-Black, sans-serif;
 	font-size: 15px;
 	letter-spacing: 0.02em;
 	width: 100%;
@@ -114,7 +127,6 @@ footer {
 }
 
 .header {
-	font-family: Avenir-Medium, sans-serif;
 	margin: 0;
 	font-size: 24px;
 	line-height: 120%;
@@ -127,7 +139,6 @@ footer {
 }
 
 .message>p {
-	font-family: Avenir-Book, sans-serif;
 	font-size: 16px;
 	line-height: 140%;
 	padding: 0;
@@ -200,7 +211,6 @@ span.tag {
 
 .button-bottom {
 	font-weight: 200 !important;
-	font-family: Avenir-Book, sans-serif;
 	margin: 10px 0 0;
 }
 

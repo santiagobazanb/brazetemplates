@@ -359,6 +359,7 @@
       right: 0px;
       position: absolute;
       padding: 0 32px;
+      z-index: 8000;
     }
 
     .top-container {
@@ -392,10 +393,14 @@
       font-weight: 800;
       padding: 20px 0;
       justify-content: center;
+      position: relative;
+      z-index: 2000;
     }
 
     .message {
       height: 40vh;
+      position: relative;
+      z-index: 2000;
     }
 
     .message>p {
@@ -642,7 +647,7 @@
         <!-- FIRST SLIDE -->
         <div class="slick-slide first">
           <div class="top-container">
-            <div class="main-icon"><img src="save.svg" width="100%"></div>
+            <div class="main-icon"><img src="" width="100%"></div>
           </div>
           <div class="bottom-container">
             <h3 class="header">
@@ -663,12 +668,10 @@
 
       <footer>
         <div class="button-center">
-          <a href="appboy://close"><p>Go to Save Pocket</p></a>
+          <a href="#" onclick="appboyBridge.closeMessage()"><p>Go to Save Pocket</p></a>
         </div>
       </footer>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     	<script>
